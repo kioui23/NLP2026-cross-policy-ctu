@@ -1,0 +1,31 @@
+# Credentials
+.env
+*.key
+*.pem
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local logs and cache
+logs/
+cache/
+results/
+
+# Ignore local experiment outputs by default, while retaining the small
+# pilot input subset required to rerun the exploratory analysis.
+hw2_results/*
+!hw2_results/full_10_question_baseline/
+hw2_results/full_10_question_baseline/*
+!hw2_results/full_10_question_baseline/96c5b40d-d5a9-45da-8af0-5d998be18d34/
+hw2_results/full_10_question_baseline/96c5b40d-d5a9-45da-8af0-5d998be18d34/*
+!hw2_results/full_10_question_baseline/96c5b40d-d5a9-45da-8af0-5d998be18d34/experiment_results.jsonl
+!hw2_results/full_10_question_baseline/96c5b40d-d5a9-45da-8af0-5d998be18d34/ctu_preparation/
+hw2_results/full_10_question_baseline/96c5b40d-d5a-45da-8af0-5d998be18d34/ctu_preparation/*
+!hw2_results/full_10_question_baseline/96c5b40d-d5a9-45da-8af0-5d998be18d34/ctu_preparation/interventions.jsonl
+!hw2_results/full_10_question_baseline/96c5b40d-d5a9-45da-8af0-5d998be18d34/ctu_preparation/counterfactual_replay/
+hw2_results/full_10_question_baseline/96c5b40d-d5a-45da-8af0-5d998be18d34/ctu_preparation/counterfactual_replay/*
+!hw2_results/full_10_question_baseline/96c5b40d-d5a-45da-8af0-5d998be18d34/ctu_preparation/counterfactual_replay/replay_results.jsonl

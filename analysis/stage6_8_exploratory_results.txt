@@ -1,0 +1,65 @@
+STAGE 6-8 EXPLORATORY COUNTERFACTUAL ANALYSIS
+============================================================
+This is NOT official answer F1 or reproduced CTU.
+Answer perturbation is a string-change proxy only.
+
+Matched interventions with successful replay: 107
+Policies: ['direct_iterative', 'question_decomposition']
+
+[direct_iterative]
+N=60
+Answer changed rate=0.9667
+Mean answer perturbation proxy=0.3237
+Mean answer similarity=0.6763
+Mean effort delta proxy=0.0000
+
+[question_decomposition]
+N=47
+Answer changed rate=1.0000
+Mean answer perturbation proxy=0.4149
+Mean answer similarity=0.5851
+Mean effort delta proxy=0.0000
+
+[Cross-policy document ranking transfer]
+Policies: direct_iterative vs question_decomposition
+Shared target documents: 31
+Spearman rank correlation: 0.7453115699026752
+Shared docs:
+  - 5a73b55855429978a71e9086::Croydon Airport
+  - 5a73b55855429978a71e9086::Dublin Airport
+  - 5a73b55855429978a71e9086::Gatwick Airport
+  - 5a73b55855429978a71e9086::Heathrow Airport
+  - 5a8753d95542994846c1cd63::John Updike
+  - 5a8753d95542994846c1cd63::Tom Clancy's Net Force Explorers: Deathworld
+  - 5a8753d95542994846c1cd63::Tom Clancy's Net Force Explorers: Gameprey
+  - 5a8753d95542994846c1cd63::Tom Clancy's Net Force Explorers: High Wire
+  - 5a8753d95542994846c1cd63::Tom Clancy's Net Force Explorers: Safe House
+  - 5ab97d0a5542996be202051e::Benedict Arnold
+  - 5ab97d0a5542996be202051e::Benjamin Lincoln
+  - 5ab97d0a5542996be202051e::John André
+  - 5ab97d0a5542996be202051e::Pulaski's Legion
+  - 5abc19705542993a06baf86e::Black Book (film)
+  - 5abc19705542993a06baf86e::Black Book (novel)
+  - 5abc19705542993a06baf86e::Halina Reijn
+  - 5ac3e0f7554299194317388b::American Beauty (1999 film)
+  - 5ac3e0f7554299194317388b::American Beauty/American Psycho Tour
+  - 5ac3e0f7554299194317388b::List of accolades received by American Beauty
+  - 5ac3e0f7554299194317388b::The Kids Aren't Alright (Fall Out Boy song)
+  - 5adef1b35542993a75d263af::Emmanuel Curtil
+  - 5adef1b35542993a75d263af::Ethel Houbiers
+  - 5adef1b35542993a75d263af::Salma Hayek
+  - 5ae518655542993aec5ec139::Alaska Legislature
+  - 5ae518655542993aec5ec139::Florida Senate
+  - 5ae518655542993aec5ec139::Ken Pruitt
+  - 5ae518655542993aec5ec139::Wisconsin Legislature
+  - 5ae80919554299540e5a56f6::Cairnburgh Castle
+  - 5ae80919554299540e5a56f6::Château de Longwy
+  - 5ae80919554299540e5a56f6::Clun Castle
+  - 5ae80919554299540e5a56f6::Isabella Kelly
+
+Interpretation cautions:
+- Answer perturbation does not measure correctness.
+- Effort delta is a proxy based on replay rounds vs remaining baseline rounds.
+- Document ranking is exploratory and may be sparse.
+- Pilot size is small; no generalization claims.
+- Official CTU is not computed.

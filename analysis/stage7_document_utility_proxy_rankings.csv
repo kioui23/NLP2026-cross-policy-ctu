@@ -1,0 +1,108 @@
+﻿policy,target_doc_id,intervention_count,mean_answer_perturbation_proxy,answer_change_rate,mean_effort_delta_proxy
+direct_iterative,5a73b55855429978a71e9086::Gatwick Airport,1,0.9319999999999999,1.0,0.0
+direct_iterative,5a8753d95542994846c1cd63::John Updike,1,0.7949709864603481,1.0,0.0
+direct_iterative,5ac3e0f7554299194317388b::List of accolades received by American Beauty,1,0.7946084724005135,1.0,0.0
+direct_iterative,5adef1b35542993a75d263af::Ethel Houbiers,1,0.7413793103448276,1.0,0.0
+direct_iterative,5ac3e0f7554299194317388b::American Beauty/American Psycho Tour,1,0.7173447537473233,1.0,0.0
+direct_iterative,5ab97d0a5542996be202051e::John André,1,0.7027027027027026,1.0,0.0
+direct_iterative,5ac3e0f7554299194317388b::Christopher Greenbury,1,0.7013232514177694,1.0,0.0
+direct_iterative,5ae80919554299540e5a56f6::Cairnburgh Castle,1,0.6717062634989202,1.0,0.0
+direct_iterative,5ae518655542993aec5ec139::Florida Senate,1,0.6534653465346535,1.0,0.0
+direct_iterative,5ab985eb554299131ca42360::Calibanus,1,0.6327868852459017,1.0,0.0
+direct_iterative,5ac3e0f7554299194317388b::The Kids Aren't Alright (Fall Out Boy song),1,0.6186440677966102,1.0,0.0
+direct_iterative,5ac3e0f7554299194317388b::American Beauty (1999 film),1,0.6182212581344902,1.0,0.0
+direct_iterative,5a73b55855429978a71e9086::Croydon Airport,1,0.6172248803827751,1.0,0.0
+direct_iterative,5ab985eb554299131ca42360::Greyia,1,0.609271523178808,1.0,0.0
+direct_iterative,5a8753d95542994846c1cd63::Tom Clancy's Net Force Explorers: Deathworld,1,0.6069364161849711,1.0,0.0
+direct_iterative,5ae143ed55429920d5234360::Moscow State University,1,0.5876288659793815,1.0,0.0
+direct_iterative,5ae80919554299540e5a56f6::Isabella Kelly,1,0.5555555555555556,1.0,0.0
+direct_iterative,5a8753d95542994846c1cd63::Tom Clancy's Net Force Explorers: Safe House,1,0.5239567233384853,1.0,0.0
+direct_iterative,5abc19705542993a06baf86e::Halina Reijn,1,0.50625,1.0,0.0
+direct_iterative,5a8753d95542994846c1cd63::Tom Clancy's Net Force Explorers: Duel Identity,1,0.5060402684563758,1.0,0.0
+direct_iterative,5a73b55855429978a71e9086::Vancouver International Airport,1,0.5039370078740157,1.0,0.0
+direct_iterative,5a73b55855429978a71e9086::Heathrow Airport,1,0.5,1.0,0.0
+direct_iterative,5ae518655542993aec5ec139::Ken Pruitt,1,0.4782608695652174,1.0,0.0
+direct_iterative,5a8753d95542994846c1cd63::Tom Clancy's Net Force Explorers: High Wire,1,0.4769736842105263,1.0,0.0
+direct_iterative,5ac3e0f7554299194317388b::Miss American Beauty 1963,1,0.4666666666666667,1.0,0.0
+direct_iterative,5ae143ed55429920d5234360::Sergei Aleksandrovich Tokarev,1,0.4566473988439307,1.0,0.0
+direct_iterative,5a8753d95542994846c1cd63::Tom Clancy's Net Force Explorers: Gameprey,1,0.43813682678311494,1.0,0.0
+direct_iterative,5adef1b35542993a75d263af::Salma Hayek,1,0.36585365853658536,1.0,0.0
+direct_iterative,5ae80919554299540e5a56f6::Inch Castle,1,0.28078817733990147,1.0,0.0
+direct_iterative,5adef1b35542993a75d263af::Béatrice Picard,1,0.23703703703703705,1.0,0.0
+direct_iterative,5ab985eb554299131ca42360::Banksiamyces,1,0.20848056537102477,1.0,0.0
+direct_iterative,5abc19705542993a06baf86e::Black Book (novel),1,0.19266055045871555,1.0,0.0
+direct_iterative,5a73b55855429978a71e9086::Grantley Adams International Airport,1,0.17962466487935658,1.0,0.0
+direct_iterative,5abc19705542993a06baf86e::Black Book of the Admiralty,1,0.17757009345794394,1.0,0.0
+direct_iterative,5adef1b35542993a75d263af::Emmanuel Curtil,1,0.15333333333333332,1.0,0.0
+direct_iterative,5abc19705542993a06baf86e::Black Book (World War II),1,0.136150234741784,1.0,0.0
+direct_iterative,5ab985eb554299131ca42360::List of Amanita species,1,0.1159420289855072,1.0,0.0
+direct_iterative,5ab985eb554299131ca42360::Megalurus,1,0.11111111111111116,1.0,0.0
+direct_iterative,5ab985eb554299131ca42360::Calyptocephalellidae,1,0.11111111111111116,1.0,0.0
+direct_iterative,5abc19705542993a06baf86e::Black Book (film),1,0.09999999999999998,1.0,0.0
+direct_iterative,5ae143ed55429920d5234360::Sergei Sholokhov,1,0.06832298136645965,1.0,0.0
+direct_iterative,5ae518655542993aec5ec139::Senate of Burkina Faso,1,0.054313099041533586,1.0,0.0
+direct_iterative,5ae518655542993aec5ec139::Alaska Legislature,1,0.054313099041533586,1.0,0.0
+direct_iterative,5ae518655542993aec5ec139::New South Wales Legislative Council,1,0.054313099041533586,1.0,0.0
+direct_iterative,5ae80919554299540e5a56f6::Château de Longwy,1,0.05213270142180093,1.0,0.0
+direct_iterative,5ab97d0a5542996be202051e::Benjamin Lincoln,1,0.04347826086956519,1.0,0.0
+direct_iterative,5ab97d0a5542996be202051e::National Memorial Arch,1,0.04347826086956519,1.0,0.0
+direct_iterative,5abc19705542993a06baf86e::Books of Clanranald,1,0.04347826086956519,1.0,0.0
+direct_iterative,5ae143ed55429920d5234360::Sergei Aleksandrovich Kudryavtsev,1,0.04153354632587858,1.0,0.0
+direct_iterative,5ae143ed55429920d5234360::Sergei Panchin,1,0.03355704697986572,1.0,0.0
+direct_iterative,5adef1b35542993a75d263af::Dorothée Jemma,1,0.030927835051546393,1.0,0.0
+direct_iterative,5ab97d0a5542996be202051e::Pulaski's Legion,1,0.02970297029702973,1.0,0.0
+direct_iterative,5ae143ed55429920d5234360::Sergei Kornilenko,1,0.029126213592232997,1.0,0.0
+direct_iterative,5a73b55855429978a71e9086::Dublin Airport,1,0.024128686327077764,1.0,0.0
+direct_iterative,5ab97d0a5542996be202051e::Benedict Arnold,1,0.01342281879194629,1.0,0.0
+direct_iterative,5ab97d0a5542996be202051e::Board of War,1,0.01342281879194629,1.0,0.0
+direct_iterative,5ae80919554299540e5a56f6::Clun Castle,1,0.0049261083743842304,1.0,0.0
+direct_iterative,5ae80919554299540e5a56f6::Wegelnburg,1,0.0049261083743842304,1.0,0.0
+direct_iterative,5adef1b35542993a75d263af::Virginie Ledieu,1,0.0,0.0,0.0
+direct_iterative,5ae518655542993aec5ec139::Wisconsin Legislature,1,0.0,0.0,0.0
+question_decomposition,5a8753d95542994846c1cd63::Tom Clancy's Net Force Explorers: Safe House,1,0.9118110236220472,1.0,0.0
+question_decomposition,5ac3e0f7554299194317388b::American Beauty (soundtrack),1,0.8653366583541147,1.0,0.0
+question_decomposition,5ac3e0f7554299194317388b::American Beauty (1927 film),1,0.8567774936061381,1.0,0.0
+question_decomposition,5abc19705542993a06baf86e::Halina Reijn,1,0.7913832199546486,1.0,0.0
+question_decomposition,5ac3e0f7554299194317388b::American Beauty/American Psycho Tour,1,0.7862595419847328,1.0,0.0
+question_decomposition,5ac3e0f7554299194317388b::The Kids Aren't Alright (Fall Out Boy song),1,0.7852522639068564,1.0,0.0
+question_decomposition,5a8753d95542994846c1cd63::John Updike,1,0.7808695652173914,1.0,0.0
+question_decomposition,5ac3e0f7554299194317388b::American Beauty (1999 film),1,0.7738219895287958,1.0,0.0
+question_decomposition,5a8753d95542994846c1cd63::Tom Clancy,1,0.7722772277227723,1.0,0.0
+question_decomposition,5a8753d95542994846c1cd63::Tom Clancy's Net Force Explorers: Deathworld,1,0.771875,1.0,0.0
+question_decomposition,5ae518655542993aec5ec139::Florida Senate,1,0.7718446601941747,1.0,0.0
+question_decomposition,5ae80919554299540e5a56f6::Cairnburgh Castle,1,0.7668161434977578,1.0,0.0
+question_decomposition,5a8753d95542994846c1cd63::Tom Clancy's Net Force Explorers: Gameprey,1,0.7488076311605724,1.0,0.0
+question_decomposition,5a73b55855429978a71e9086::Gatwick Airport,1,0.7137404580152672,1.0,0.0
+question_decomposition,5a8753d95542994846c1cd63::Tom Clancy's Net Force Explorers: High Wire,1,0.6865671641791045,1.0,0.0
+question_decomposition,5ae80919554299540e5a56f6::Isabella Kelly,1,0.5789473684210527,1.0,0.0
+question_decomposition,5ac3e0f7554299194317388b::List of accolades received by American Beauty,1,0.5745526838966203,1.0,0.0
+question_decomposition,5ab97d0a5542996be202051e::John André,1,0.5628415300546448,1.0,0.0
+question_decomposition,5adef1b35542993a75d263af::Ethel Houbiers,1,0.542483660130719,1.0,0.0
+question_decomposition,5abc19705542993a06baf86e::Black Book (film),1,0.5047021943573669,1.0,0.0
+question_decomposition,5a73b55855429978a71e9086::Croydon Airport,1,0.4514767932489452,1.0,0.0
+question_decomposition,5ae518655542993aec5ec139::Ken Pruitt,1,0.4475524475524476,1.0,0.0
+question_decomposition,5abc19705542993a06baf86e::Yazidi Book of Revelation,1,0.4365325077399381,1.0,0.0
+question_decomposition,5abc19705542993a06baf86e::Le Livre noir du capitalisme,1,0.3610223642172524,1.0,0.0
+question_decomposition,5adef1b35542993a75d263af::Salma Hayek,1,0.3548387096774194,1.0,0.0
+question_decomposition,5abc19705542993a06baf86e::Black Book (novel),1,0.34545454545454546,1.0,0.0
+question_decomposition,5abc19705542993a06baf86e::Neil Smith (writer),1,0.33576642335766427,1.0,0.0
+question_decomposition,5a73b55855429978a71e9086::Dublin Airport,1,0.32300884955752207,1.0,0.0
+question_decomposition,5a73b55855429978a71e9086::Chennai International Airport,1,0.3191489361702128,1.0,0.0
+question_decomposition,5adef1b35542993a75d263af::Mary Forbes,1,0.2545931758530183,1.0,0.0
+question_decomposition,5a73b55855429978a71e9086::Heathrow Airport,1,0.2517321016166282,1.0,0.0
+question_decomposition,5adef1b35542993a75d263af::Roger Carel,1,0.22580645161290325,1.0,0.0
+question_decomposition,5ae80919554299540e5a56f6::Château de Longwy,1,0.089622641509434,1.0,0.0
+question_decomposition,5ae518655542993aec5ec139::Wisconsin Legislature,1,0.07741935483870965,1.0,0.0
+question_decomposition,5ae518655542993aec5ec139::Alaska Legislature,1,0.07741935483870965,1.0,0.0
+question_decomposition,5ae80919554299540e5a56f6::Scharfenstein Castle (Kiedrich),1,0.07469879518072287,1.0,0.0
+question_decomposition,5ab97d0a5542996be202051e::Pulaski's Legion,1,0.0744336569579288,1.0,0.0
+question_decomposition,5ab97d0a5542996be202051e::List of Continental Army units,1,0.07333333333333336,1.0,0.0
+question_decomposition,5ae80919554299540e5a56f6::Abergairn Castle,1,0.0531400966183575,1.0,0.0
+question_decomposition,5ae518655542993aec5ec139::Upper house,1,0.048231511254019255,1.0,0.0
+question_decomposition,5ab97d0a5542996be202051e::Benedict Arnold,1,0.045454545454545414,1.0,0.0
+question_decomposition,5ab97d0a5542996be202051e::Benjamin Lincoln,1,0.045454545454545414,1.0,0.0
+question_decomposition,5ab97d0a5542996be202051e::Siege of Yorktown,1,0.045454545454545414,1.0,0.0
+question_decomposition,5adef1b35542993a75d263af::Bernard Alane,1,0.04347826086956519,1.0,0.0
+question_decomposition,5adef1b35542993a75d263af::Emmanuel Curtil,1,0.04347826086956519,1.0,0.0
+question_decomposition,5ae518655542993aec5ec139::Nevada Legislature,1,0.03536977491961413,1.0,0.0
+question_decomposition,5ae80919554299540e5a56f6::Clun Castle,1,0.01728395061728394,1.0,0.0
