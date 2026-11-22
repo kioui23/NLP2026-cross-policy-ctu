@@ -1,23 +1,25 @@
 STAGE 6-8 EXPLORATORY COUNTERFACTUAL ANALYSIS
 ============================================================
-This is NOT official answer F1 or reproduced CTU.
-Answer perturbation is a string-change proxy only.
+This analysis does not compute official answer F1 or reproduce
+the CTU metric. Answer perturbation is measured using a
+string-similarity-based proxy and should not be interpreted
+as factual correctness or causal document utility. only.
 
 Matched interventions with successful replay: 107
 Policies: ['direct_iterative', 'question_decomposition']
 
 [direct_iterative]
 N=60
-Answer changed rate=0.9667
-Mean answer perturbation proxy=0.3237
-Mean answer similarity=0.6763
+Answer changed rate=0.8500
+Mean answer perturbation proxy=0.3314
+Mean answer similarity=0.6686
 Mean effort delta proxy=0.0000
 
 [question_decomposition]
-N=47
-Answer changed rate=1.0000
-Mean answer perturbation proxy=0.4149
-Mean answer similarity=0.5851
+N=36
+Answer changed rate=0.9722
+Mean answer perturbation proxy=0.4301
+Mean answer similarity=0.5699
 Mean effort delta proxy=0.0000
 
 [Cross-policy document ranking transfer]
