@@ -1,67 +1,39 @@
 STAGE 6-8 EXPLORATORY COUNTERFACTUAL ANALYSIS
 ============================================================
-This analysis does not compute official answer F1 or reproduce
-the CTU metric. Answer perturbation is measured using a
-string-similarity-based proxy and should not be interpreted
-as factual correctness or causal document utility. only.
+Final-manuscript-aligned pilot results.
 
-Matched interventions with successful replay: 107
+This analysis does not compute official Counterfactual Trajectory Utility (CTU).
+Answer perturbation is based on answer-text similarity and should not be
+interpreted as factual correctness, answer utility, or causal document utility.
+
+Matched counterfactual interventions with successful replay: 96
+Replay completion rate: 100%
 Policies: ['direct_iterative', 'question_decomposition']
 
 [direct_iterative]
 N=60
-Answer changed rate=0.8500
-Mean answer perturbation proxy=0.3314
-Mean answer similarity=0.6686
-Mean effort delta proxy=0.0000
+Mean answer perturbation=0.3310
+Median answer perturbation=0.2090
+Answer changed=51 (0.8500)
+Identical answer=9 (0.1500)
 
 [question_decomposition]
 N=36
-Answer changed rate=0.9722
-Mean answer perturbation proxy=0.4301
-Mean answer similarity=0.5699
-Mean effort delta proxy=0.0000
+Mean answer perturbation=0.4301
+Median answer perturbation=0.4732
+Answer changed=35 (0.9722)
+Identical answer=1 (0.0278)
 
-[Cross-policy document ranking transfer]
-Policies: direct_iterative vs question_decomposition
-Shared target documents: 31
-Spearman rank correlation: 0.7453115699026752
-Shared docs:
-  - 5a73b55855429978a71e9086::Croydon Airport
-  - 5a73b55855429978a71e9086::Dublin Airport
-  - 5a73b55855429978a71e9086::Gatwick Airport
-  - 5a73b55855429978a71e9086::Heathrow Airport
-  - 5a8753d95542994846c1cd63::John Updike
-  - 5a8753d95542994846c1cd63::Tom Clancy's Net Force Explorers: Deathworld
-  - 5a8753d95542994846c1cd63::Tom Clancy's Net Force Explorers: Gameprey
-  - 5a8753d95542994846c1cd63::Tom Clancy's Net Force Explorers: High Wire
-  - 5a8753d95542994846c1cd63::Tom Clancy's Net Force Explorers: Safe House
-  - 5ab97d0a5542996be202051e::Benedict Arnold
-  - 5ab97d0a5542996be202051e::Benjamin Lincoln
-  - 5ab97d0a5542996be202051e::John André
-  - 5ab97d0a5542996be202051e::Pulaski's Legion
-  - 5abc19705542993a06baf86e::Black Book (film)
-  - 5abc19705542993a06baf86e::Black Book (novel)
-  - 5abc19705542993a06baf86e::Halina Reijn
-  - 5ac3e0f7554299194317388b::American Beauty (1999 film)
-  - 5ac3e0f7554299194317388b::American Beauty/American Psycho Tour
-  - 5ac3e0f7554299194317388b::List of accolades received by American Beauty
-  - 5ac3e0f7554299194317388b::The Kids Aren't Alright (Fall Out Boy song)
-  - 5adef1b35542993a75d263af::Emmanuel Curtil
-  - 5adef1b35542993a75d263af::Ethel Houbiers
-  - 5adef1b35542993a75d263af::Salma Hayek
-  - 5ae518655542993aec5ec139::Alaska Legislature
-  - 5ae518655542993aec5ec139::Florida Senate
-  - 5ae518655542993aec5ec139::Ken Pruitt
-  - 5ae518655542993aec5ec139::Wisconsin Legislature
-  - 5ae80919554299540e5a56f6::Cairnburgh Castle
-  - 5ae80919554299540e5a56f6::Château de Longwy
-  - 5ae80919554299540e5a56f6::Clun Castle
-  - 5ae80919554299540e5a56f6::Isabella Kelly
+[Cross-policy document ranking]
+Shared target documents: 27
+Spearman rank correlation: 0.7861
 
-Interpretation cautions:
-- Answer perturbation does not measure correctness.
-- Effort delta is a proxy based on replay rounds vs remaining baseline rounds.
-- Document ranking is exploratory and may be sparse.
-- Pilot size is small; no generalization claims.
+Interpretation:
+- Question Decomposition exhibited higher mean answer-text perturbation than
+  Direct Iterative Search in this pilot.
+- The document-level perturbation rankings showed a positive association across
+  the two policies over the 27 shared documents.
+- Answer perturbation does not directly measure factual correctness, evidence
+  sufficiency, retrieval quality, or causal utility.
+- Results are exploratory and are conditioned on successful baseline trajectories.
 - Official CTU is not computed.
